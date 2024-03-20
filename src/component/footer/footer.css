@@ -1,0 +1,55 @@
+.footer-container{
+    width: 100%;
+    margin-top: 30px;
+}
+.footer-container h2{
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+
+.footer{
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+    background-color: rgb(44, 40, 40);
+}
+.myfooter{
+    background-color: rgb(105, 99, 99);
+    padding: 10px;
+    margin: 10px ;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.myfooter img{
+    width: 80px;
+    height: 80px;
+    border-radius:50% ;
+}
+.myfooter p{
+    color: white;
+    background-color: transparent;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.myfooter h2{
+    background-color: transparent;
+    font-size: 30PX;
+    margin-bottom: 20px;
+}
+.myfooter form input{
+    color: white;
+    font-size: 16px;
+    border-bottom: 0px;
+    margin: 20px;
+}
+.myfooter form input::placeholder{
+    color: white;
+}

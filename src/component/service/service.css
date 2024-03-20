@@ -1,0 +1,50 @@
+.service-container{
+    width: 100%;
+    margin-top: 90px;
+}
+.service-container h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+    transition: all 0.5s;
+}
+.service-container h2:hover{
+    color: crimson;
+}
+.service{
+    width: 90%;
+    margin: 50px auto;
+    background-color: rgb(27, 26, 26);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 70px 0px;
+}
+.myservice{
+    background-color: black;
+    padding: 10px;
+    margin: 10px ;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    transition: all 0.5s;
+}
+.myservice:hover{
+    box-shadow: 0px 0px 8px crimson;
+}
+.myservice img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.myservice h2{
+    font-size: 25px;
+    padding: 10px 0px;
+}
+.myservice p{
+    color: white;
+}
