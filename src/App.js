@@ -15,6 +15,9 @@ import image5 from './component/images/image5.jpg';
 import image6 from './component/images/image6.jpg';
 import image7 from './component/images/image7.jpg';
 import image8 from './component/images/image8.jpg';
+import image9 from './component/images/image9.jpg';
+import image10 from './component/images/image10.jpg';
+
 
 
 
@@ -29,7 +32,9 @@ function App() {
     image5,
     image6,
     image7,
-    image8
+    image8,
+    image9,
+    image10
   ];
   return (
     <>
