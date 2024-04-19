@@ -1,12 +1,13 @@
 import React from 'react'
 import "./navbar.css"
 import { useState } from 'react'
+import LoginForm from '../LoginForm/LoginForm';
 
 export default function Navbar() {
 const [humberger, sethumberger] = useState(false);
 const [login, setlogin] = useState(false);
 
-const signinup = () =>{
+const signUp = () =>{
     setlogin(!login)
 }
 
@@ -33,37 +34,11 @@ const toggle = () =>{
                 <i className="fa-solid fa-bars" onClick={toggle}></i>
             </div>
             <div className='right'>
-                <button className='loginbtn' onClick={signinup}>Login</button>
+                <button className='loginbtn' onClick={signUp}>SignUp</button>
             </div>
         </nav>
     </header>
-    {/* login Form Start Here */}
-    <div className="form-container" id={login ? "abc" : ""}>
-        <h2>Login</h2>
-        <form action=''>
-        <div className='name-container'>
-                <label htmlFor='name'>Name: </label>
-                <input type='text' id='name'></input>
-            </div>
-            <div className='name-container'>
-                <label htmlFor='Mob-no'>Mobile No: </label>
-                <input type='number' id='mob-no'></input>
-            </div>
-            <div className='name-container'>
-                <label htmlFor='email'>Email: </label>
-                <input type='text' id='email'></input>
-            </div>
-            <div className='name-container'>
-                <label htmlFor='pass'>Passsword: </label>
-                <input type='password' id='pass'></input><br></br>
-                <span className='forget-pass'><a href='#'>forget password</a></span>
-            </div>
-            <div className='login-container'>
-                <button className='login' id='login'>Login</button>
-                <button className='Sign-Up' id='Sign-Up'>Sign-Up</button>
-            </div>
-        </form>
-    </div>
+    {login && <LoginForm onLogin={signUp} />}
     </>
   )
 }
