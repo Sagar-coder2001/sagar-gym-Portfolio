@@ -1,9 +1,10 @@
-import React from 'react'
-import "./LoginForm.css"
+import React from 'react';
+import "./Loginform.css";
+import Layout from '../../component/Layout/Layout'
 
-export default function LoginForm({ onLogin }) {
+function Loginform() {
   return (
-    <div>
+    <Layout>
         <div className="form-container">
       <h2>Sign Up</h2>
       <form action="">
@@ -20,11 +21,12 @@ export default function LoginForm({ onLogin }) {
           <input type='password' id='pass'placeholder='Your password'></input><br></br>
         </div>
         <div className='login-container'>
-          <button className='login' id='login' onClick={onLogin}>Sign Up</button>
+          <button className='login' id='login'>Sign Up</button>
         </div>
       </form>
     </div>
-      
-    </div>
+    </Layout>
   )
 }
+
+export default Loginform

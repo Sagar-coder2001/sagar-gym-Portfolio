@@ -3,16 +3,18 @@
 .form-container{
     border-radius: 10px;
     width: 400px;
-    position: fixed;
-    z-index: 100;
-    top: 50%;
-    right: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
+    height: auto;
     box-shadow: 0px 0px 5px crimson;
+    margin: 200px auto 20px;
+    border: 2px solid white;
+    background-color: rgb(27, 26, 26);
 }
 #abc{
     display: block;
+}
+.form-container form{
+    background-color: rgb(27, 26, 26);
+
 }
 .form-container h2{
     text-align: center;
@@ -20,19 +22,26 @@
     font-size: 30px;
     text-transform: uppercase;
     color: crimson;
+    background-color: rgb(27, 26, 26);
+    
 }
 .name-container{
     margin: 5px auto;
     width: 300px;
+    background-color: rgb(27, 26, 26);
+
 }
 
 input{
     width: 300px;
-    padding: 8px;
+    padding: 10px;
     font-size: 15px;
     color: white;
     margin: 8px auto;
     border: 1px solid;
+    outline: none;
+
+
 }
 .forget-pass a{
     text-decoration: none;
@@ -45,6 +54,8 @@ input{
     display: flex;
     justify-content: space-around;
     margin-bottom: 30px;
+    background-color: rgb(27, 26, 26);
+
 }
 .login-container button{
     padding: 10px;
@@ -54,16 +65,14 @@ input{
     font-size: 18px;
     font-weight: bold;
     color: white;
+    margin-bottom: 10px;
+
 }
 @media screen and (max-width:500px) {
     .form-container{
         width: 90% ;
         margin: 0px auto;
         border-radius: 8px;
-        position: fixed;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%,-50%);
     }
     label{
         margin: 5px;
@@ -71,15 +80,11 @@ input{
     }
     input{
         width: 70%;
-        /* padding: 5px; */
         font-size: 14px;
         background-color: transparent;
         border: none;
         outline: none;
         border-bottom: 1px solid;
         color: white;
-        /* margin: 4px 0px; */
     }
 }
-
-/* main container */

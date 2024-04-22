@@ -27,7 +27,7 @@ export default function Footer() {
       <div className='myfooter'>
         <h2>CONTACT-US</h2>
         <form action=''>
-         <input type='text' id='mail' placeholder='Your Email'></input>
+         {/* <input type='text' id='mail' placeholder='Your Email'></input> */}
         </form>
       </div>
     </div>

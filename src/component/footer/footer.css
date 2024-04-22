@@ -1,6 +1,7 @@
 .footer-container{
     width: 100%;
     margin-top: 30px;
+    background-color: rgb(27, 26, 26);
 }
 .footer-container h2{
     color: white;
@@ -16,17 +17,16 @@
     align-items: center;
     flex-wrap: wrap;
     padding: 20px 0px;
-    background-color: rgb(44, 40, 40);
+    background-color: rgb(27, 26, 26);
 }
 .myfooter{
-    background-color: rgb(105, 99, 99);
     padding: 10px;
     margin: 10px ;
     width: 250px;
     height: 300px;
     text-align: center;
-    border-radius: 10px;
-    transition: all 0.5s;
+    background-color: rgb(27, 26, 26);
+
 }
 .myfooter img{
     width: 80px;
@@ -41,7 +41,7 @@
 }
 .myfooter h2{
     background-color: transparent;
-    font-size: 30PX;
+    font-size: 25PX;
     margin-bottom: 20px;
 }
 .myfooter form input{
