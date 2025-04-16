@@ -42,8 +42,6 @@ function Home() {
       <Service/>
      <Gallery images = {images} interval = {4000}/>
      <Footer/>
-
-
     </div>
     </>
   )
