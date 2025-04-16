@@ -17,11 +17,6 @@ export default function Navbar() {
                     <span style={{fontSize:'25px', color:'white', textDecoration:'none',  textShadow: "10px 10px 15px crimson"}}>FITNESS CLUB</span>
                 </div>
             </div>
-            <div className='right'>
-                <Link to = '/loginform'>
-                <button className='loginbtn'>SignUp</button>
-                </Link>
-            </div>
         </nav>
     </header>
     </>
