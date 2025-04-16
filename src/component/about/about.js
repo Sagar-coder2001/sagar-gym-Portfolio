@@ -9,7 +9,7 @@ export default function About() {
         <h2>ABOUT JYM</h2>
       <div className='about'>
         <div className='about-left'>
-            <img src='https://th.bing.com/th?id=OIP.RoxQHa9JJEfHX-0JUX3LmAHaE8&w=306&h=204&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2'></img>
+            <img src='https://img.freepik.com/premium-photo/athletic-man-works-out-gym-with-fiery-barbell_207634-1525.jpg?ga=GA1.1.1318947987.1710155342&semt=ais_hybrid&w=740'></img>
         </div>
         <div className='about-right'>
             <h2>FITNESS CLUB</h2>

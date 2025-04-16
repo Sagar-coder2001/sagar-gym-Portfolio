@@ -18,7 +18,7 @@ const toggle = () =>{
             </div>
             <div className='middle' id={humberger ? "nav" : ""} >
             <div>
-                    <span style={{fontSize:'25px', color:'white', textDecoration:'none',  textShadow: "10px 10px 15px crimson"}}>Earth Fitness</span>
+                    <span style={{fontSize:'25px', color:'white', textDecoration:'none',  textShadow: "10px 10px 15px crimson"}}>FITNESS CLUB</span>
                 </div>
                 <i className="fa-solid fa-bars" onClick={toggle}></i>
             </div>
