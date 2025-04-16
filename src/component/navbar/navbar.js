@@ -4,11 +4,7 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom';
 
 export default function Navbar() {
-const [humberger, sethumberger] = useState(false);
 
-const toggle = () =>{
-    sethumberger(!humberger)
-}
   return (
     <>
     <header>
@@ -16,11 +12,10 @@ const toggle = () =>{
             <div className='left'>
             <Link to = '/'><img src='https://static.vecteezy.com/system/resources/previews/000/595/983/original/vector-object-and-icons-for-sport-label-gym-badge-fitness-logo-design.jpg'></img></Link>
             </div>
-            <div className='middle' id={humberger ? "nav" : ""} >
+            <div className='middle' >
             <div>
                     <span style={{fontSize:'25px', color:'white', textDecoration:'none',  textShadow: "10px 10px 15px crimson"}}>FITNESS CLUB</span>
                 </div>
-                <i className="fa-solid fa-bars" onClick={toggle}></i>
             </div>
             <div className='right'>
                 <Link to = '/loginform'>
